@@ -1,10 +1,10 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Contacts from "./components/Contacts";
 import { Features } from "./components/Features";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
 
-export const App = () => {
+export const App:React.FC = () => {
   return (
     <div className="container">
       <Header />

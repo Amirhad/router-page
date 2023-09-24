@@ -1,4 +1,4 @@
-export const Main = () => {
+export const Main:React.FC= () => {
   return (
     <div className="main">
         <h1>Cover your page</h1>

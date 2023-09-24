@@ -1,4 +1,4 @@
-export const Features = () => {
+export const Features:React.FC = () => {
   return (
     <div className="Features">
       <h1>Features your page</h1>
